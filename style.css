@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Quicksand", sans-serif;
+  background: url("email-pattern.png");
+}
+.container {
+  width: 65%;
+  margin: auto;
+  background-color: #fff;
+}
+/* Header */
+.header .judul {
+  padding: 10px 20px;
+}
+.header ul {
+  margin: 7px 0 5px;
+}
+.header ul li {
+  display: inline-block;
+  padding: 0 10px 10px 20px;
+}
+.header ul li a {
+  color: rgb(250, 128, 114);
+  text-decoration: none;
+}
+.header ul li a:hover {
+  color: rgb(236, 112, 98);
+  font-weight: bold;
+}
+/* End Header */
+
+/* Hero */
+.hero {
+  width: 100%;
+  height: 450px;
+  background-image: url("austin-poon-JO_S6ewBqAk-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-top: 4px solid salmon;
+  border-bottom: 4px solid lightskyblue;
+}
+/* End Hero */
+
+/* Content */
+.content {
+  padding: 20px;
+}
+.content .head-article {
+  padding: 0 10px;
+}
+.content .head-article p {
+  font-size: 15px;
+  font-weight: 500;
+}
+.content .head-article a {
+  color: rgb(250, 128, 114);
+  text-decoration: none;
+}
+.content .body-article {
+  padding: 30px 0px 20px;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: justify;
+}
+.content .body-article p {
+  padding: 0 10px;
+  margin-bottom: 20px;
+}
+/* End Content */
+
+/* Footer */
+.footer {
+  padding: 15px 0;
+  background-color: dimgrey;
+  border: 0;
+}
+.footer p {
+  text-align: center;
+  color: white;
+}
+/* End Footer */
